@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PopoverSortGifView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MY5-0e-bXX">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="44"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="contentEdgeInsets" minX="-24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="titleEdgeInsets" minX="-6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-93" maxY="0.0"/>
+                    <state key="normal" title="对象" image="giftcategorydetail_arrow_down_gray">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="subjectBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="uLa-gD-E8x"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VoS-1Y-yPG">
+                    <rect key="frame" x="80" y="0.0" width="80" height="44"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="contentEdgeInsets" minX="-24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="titleEdgeInsets" minX="-6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-93" maxY="0.0"/>
+                    <state key="normal" title="场合" image="giftcategorydetail_arrow_down_gray">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="characterBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="J3Q-CI-N7C"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79V-su-RQx">
+                    <rect key="frame" x="160" y="0.0" width="80" height="44"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="contentEdgeInsets" minX="-24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="titleEdgeInsets" minX="-6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-93" maxY="0.0"/>
+                    <state key="normal" title="个性" image="giftcategorydetail_arrow_down_gray">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="occasionBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="q7K-aq-OwP"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sVL-4i-lL5" userLabel="底部线条">
+                    <rect key="frame" x="0.0" y="43" width="320" height="0.5"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="GMb-fu-Use"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="0.5" id="tHG-S9-WrY"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wKR-zN-HCt" userLabel="line1">
+                    <rect key="frame" x="80" y="12" width="0.5" height="20"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="aMd-OI-U6m"/>
+                        <constraint firstAttribute="height" constant="20" id="hA2-Nm-fSw"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nFz-Ob-FA4" userLabel="line2">
+                    <rect key="frame" x="160" y="12" width="0.5" height="20"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="9fB-Gc-5ep"/>
+                        <constraint firstAttribute="width" constant="1" id="NQQ-Yt-jdC"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gZh-M5-dpA" userLabel="line3">
+                    <rect key="frame" x="240" y="12" width="0.5" height="20"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="Xjn-Ep-As2"/>
+                        <constraint firstAttribute="height" constant="20" id="sql-f6-B5o"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRW-M5-OVV">
+                    <rect key="frame" x="240" y="0.0" width="80" height="44"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="contentEdgeInsets" minX="-24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="titleEdgeInsets" minX="-6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-93" maxY="0.0"/>
+                    <state key="normal" title="价格" image="giftcategorydetail_arrow_down_gray">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="priceBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="U4k-ec-nym"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="CRW-M5-OVV" secondAttribute="bottom" id="00k-NG-hp5"/>
+                <constraint firstItem="79V-su-RQx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="01O-ad-nNF"/>
+                <constraint firstItem="nFz-Ob-FA4" firstAttribute="leading" secondItem="VoS-1Y-yPG" secondAttribute="trailing" id="2Q6-Hw-yBO"/>
+                <constraint firstItem="MY5-0e-bXX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9Ky-sk-Hpo"/>
+                <constraint firstItem="wKR-zN-HCt" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="9dw-nI-q5c"/>
+                <constraint firstAttribute="bottom" secondItem="VoS-1Y-yPG" secondAttribute="bottom" id="AlF-Nc-b9e"/>
+                <constraint firstItem="gZh-M5-dpA" firstAttribute="leading" secondItem="79V-su-RQx" secondAttribute="trailing" id="B0A-7W-c2W"/>
+                <constraint firstAttribute="bottom" secondItem="sVL-4i-lL5" secondAttribute="bottom" id="Bgs-CQ-P5o"/>
+                <constraint firstItem="79V-su-RQx" firstAttribute="width" secondItem="MY5-0e-bXX" secondAttribute="width" id="FM9-ra-p45"/>
+                <constraint firstItem="CRW-M5-OVV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="K3S-wG-7aF"/>
+                <constraint firstItem="CRW-M5-OVV" firstAttribute="leading" secondItem="79V-su-RQx" secondAttribute="trailing" id="Kwb-uR-167"/>
+                <constraint firstItem="nFz-Ob-FA4" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="LVC-zm-EnR"/>
+                <constraint firstItem="MY5-0e-bXX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="NGy-Qz-ZkL"/>
+                <constraint firstItem="CRW-M5-OVV" firstAttribute="width" secondItem="MY5-0e-bXX" secondAttribute="width" id="Q9J-Bd-p7w"/>
+                <constraint firstItem="79V-su-RQx" firstAttribute="height" secondItem="MY5-0e-bXX" secondAttribute="height" id="RSp-t0-BHb"/>
+                <constraint firstItem="CRW-M5-OVV" firstAttribute="height" secondItem="MY5-0e-bXX" secondAttribute="height" id="RXV-gi-GmK"/>
+                <constraint firstAttribute="trailing" secondItem="CRW-M5-OVV" secondAttribute="trailing" id="TMX-VL-aTb"/>
+                <constraint firstItem="sVL-4i-lL5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="WOz-jx-4hH"/>
+                <constraint firstItem="VoS-1Y-yPG" firstAttribute="width" secondItem="MY5-0e-bXX" secondAttribute="width" id="bgl-AS-eej"/>
+                <constraint firstAttribute="trailing" secondItem="sVL-4i-lL5" secondAttribute="trailing" id="cEB-Hf-taK"/>
+                <constraint firstItem="wKR-zN-HCt" firstAttribute="leading" secondItem="MY5-0e-bXX" secondAttribute="trailing" id="fQO-rp-bBy"/>
+                <constraint firstItem="VoS-1Y-yPG" firstAttribute="leading" secondItem="MY5-0e-bXX" secondAttribute="trailing" id="gIS-6E-Df2"/>
+                <constraint firstItem="79V-su-RQx" firstAttribute="leading" secondItem="VoS-1Y-yPG" secondAttribute="trailing" id="kUP-dD-4QZ"/>
+                <constraint firstItem="VoS-1Y-yPG" firstAttribute="height" secondItem="MY5-0e-bXX" secondAttribute="height" id="nRl-pK-T3r"/>
+                <constraint firstItem="VoS-1Y-yPG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="q0A-Ux-Bdk"/>
+                <constraint firstAttribute="bottom" secondItem="MY5-0e-bXX" secondAttribute="bottom" id="y9S-yC-3gJ"/>
+                <constraint firstAttribute="bottom" secondItem="79V-su-RQx" secondAttribute="bottom" id="zcf-XK-Sf3"/>
+                <constraint firstItem="gZh-M5-dpA" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="zhv-eE-Tg3"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="characterBtn" destination="VoS-1Y-yPG" id="EOA-cM-Lqm"/>
+                <outlet property="occasionBtn" destination="79V-su-RQx" id="SeN-xW-ZP1"/>
+                <outlet property="priceBtn" destination="CRW-M5-OVV" id="zd6-i0-Ihg"/>
+                <outlet property="subjectBtn" destination="MY5-0e-bXX" id="0af-sm-3nP"/>
+            </connections>
+            <point key="canvasLocation" x="228" y="266"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="giftcategorydetail_arrow_down_gray" width="7" height="4"/>
+    </resources>
+</document>
