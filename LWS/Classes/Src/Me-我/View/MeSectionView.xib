@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MeSectionView">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="62"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WEt-bL-noE" userLabel="顶部间距">
+                    <rect key="frame" x="0.0" y="10" width="365" height="0.5"/>
+                    <color key="backgroundColor" red="0.81568627450980391" green="0.81568627450980391" blue="0.81568627450980391" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="iP0-vZ-Jto"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ajh-hj-B9T">
+                    <rect key="frame" x="0.0" y="10" width="182.5" height="51"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="单品">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="singleBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="5tg-B8-9n6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tlV-26-y7Q">
+                    <rect key="frame" x="182" y="10" width="182.5" height="51"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="攻略">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="strategyBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="eoz-Dz-tFI"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ni-JW-pyw" userLabel="红线">
+                    <rect key="frame" x="0.0" y="60" width="182.5" height="2"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="HZ7-bA-0mh"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="9Ni-JW-pyw" secondAttribute="bottom" id="0TG-vc-1nK"/>
+                <constraint firstItem="WEt-bL-noE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="17g-K3-Drm"/>
+                <constraint firstItem="9Ni-JW-pyw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="AFk-1L-Mxa"/>
+                <constraint firstAttribute="trailing" secondItem="WEt-bL-noE" secondAttribute="trailing" id="JUJ-h3-2UF"/>
+                <constraint firstItem="Ajh-hj-B9T" firstAttribute="height" secondItem="tlV-26-y7Q" secondAttribute="height" id="NIx-0W-kgB"/>
+                <constraint firstItem="Ajh-hj-B9T" firstAttribute="top" secondItem="WEt-bL-noE" secondAttribute="bottom" id="Pxr-ks-Wxh"/>
+                <constraint firstItem="Ajh-hj-B9T" firstAttribute="width" secondItem="tlV-26-y7Q" secondAttribute="width" id="Q2g-dL-t4k"/>
+                <constraint firstAttribute="bottom" secondItem="Ajh-hj-B9T" secondAttribute="bottom" constant="1" id="QMQ-7O-83p"/>
+                <constraint firstItem="Ajh-hj-B9T" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="WDp-Jn-bcY"/>
+                <constraint firstItem="tlV-26-y7Q" firstAttribute="top" secondItem="WEt-bL-noE" secondAttribute="bottom" id="YNP-Fa-eLb"/>
+                <constraint firstItem="WEt-bL-noE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="aep-t6-XNO"/>
+                <constraint firstItem="Ajh-hj-B9T" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="end-aq-LIk"/>
+                <constraint firstItem="9Ni-JW-pyw" firstAttribute="width" secondItem="Ajh-hj-B9T" secondAttribute="width" id="lge-pV-7v2"/>
+                <constraint firstAttribute="trailing" secondItem="tlV-26-y7Q" secondAttribute="trailing" id="nmy-pU-uX5"/>
+                <constraint firstItem="tlV-26-y7Q" firstAttribute="leading" secondItem="Ajh-hj-B9T" secondAttribute="trailing" id="ph1-p4-ukb"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="end-aq-LIk"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="bottomLineView" destination="9Ni-JW-pyw" id="mUU-D6-ZGK"/>
+                <outlet property="bottomLineViewLeading" destination="AFk-1L-Mxa" id="bBK-D8-FXT"/>
+            </connections>
+            <point key="canvasLocation" x="214.5" y="249"/>
+        </view>
+    </objects>
+</document>

@@ -120,11 +120,13 @@
     self.scrollView.contentOffset = CGPointMake(KScreenWidth *index, 0);
 }
 
+
 #pragma mark - UISearchBarDelegate
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar{
     NSLog(@"跳转到搜索");
     //navigationController?.pushViewController(SearchViewController(), animated: true)
 }
+
 
 #pragma mark - UIScrollViewDelegate
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{

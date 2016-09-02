@@ -11,6 +11,28 @@
 
 @implementation UIButton (extension)
 
+
+//
++ (UIButton *)init_ButtonWithX:(CGFloat)x
+                      iconName:(NSString *)iconName
+                        target:(nullable id)target
+                        action:(SEL)action
+               imageEdgeInsets:(UIEdgeInsets)imageEdgeInsets{
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    
+    button.frame = CustomRectMake(x, 0, 44.0, 44.0);
+    [button setImage:[UIImage imageNamed:iconName] forState:UIControlStateNormal];
+    [button setImage:[UIImage imageNamed:iconName] forState:UIControlStateHighlighted];
+    
+    button.imageEdgeInsets = imageEdgeInsets;
+    [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    
+    return button;
+}
+
+
+
+
 /// 导航栏返回按钮
 + (UIButton *)init_BackTarget:(nullable id)target action: (SEL)action {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];

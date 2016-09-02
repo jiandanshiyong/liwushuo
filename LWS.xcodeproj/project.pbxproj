@@ -77,6 +77,12 @@
 		4B2532121D5F0D6B00ED05C6 /* strategy_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B2531F71D5F0D6B00ED05C6 /* strategy_8.jpg */; };
 		4B2532131D5F0D6B00ED05C6 /* strategy_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B2531F81D5F0D6B00ED05C6 /* strategy_9.jpg */; };
 		4B2532171D5F544F00ED05C6 /* BaseGoodsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2532161D5F544F00ED05C6 /* BaseGoodsFeedViewController.m */; };
+		4B2A74B91D76775C006A571B /* MeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A74B81D76775C006A571B /* MeHeaderView.m */; };
+		4B2A74BC1D7677B7006A571B /* MeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A74BB1D7677B7006A571B /* MeFooterView.m */; };
+		4B2A74BF1D768530006A571B /* MeOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A74BE1D768530006A571B /* MeOptionView.m */; };
+		4B2A74C21D768E2A006A571B /* MeSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A74C11D768E2A006A571B /* MeSectionView.m */; };
+		4B2A74C41D768E45006A571B /* MeSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B2A74C31D768E45006A571B /* MeSectionView.xib */; };
+		4B2A74C81D76CC85006A571B /* ButtonTitleDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A74C71D76CC85006A571B /* ButtonTitleDown.m */; };
 		4B329DB81D6727AA00C6F558 /* CommonGoodsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B329DB71D6727AA00C6F558 /* CommonGoodsFeedViewController.m */; };
 		4B329DBC1D672C7600C6F558 /* ColumnListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B329DBB1D672C7600C6F558 /* ColumnListViewController.m */; };
 		4B329DC01D67346200C6F558 /* ColumnListHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B329DBF1D67346200C6F558 /* ColumnListHeader.m */; };
@@ -292,6 +298,17 @@
 		4B2531F81D5F0D6B00ED05C6 /* strategy_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategy_9.jpg; sourceTree = "<group>"; };
 		4B2532151D5F544F00ED05C6 /* BaseGoodsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGoodsFeedViewController.h; sourceTree = "<group>"; };
 		4B2532161D5F544F00ED05C6 /* BaseGoodsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseGoodsFeedViewController.m; sourceTree = "<group>"; };
+		4B2A74B71D76775C006A571B /* MeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeHeaderView.h; sourceTree = "<group>"; };
+		4B2A74B81D76775C006A571B /* MeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeHeaderView.m; sourceTree = "<group>"; };
+		4B2A74BA1D7677B7006A571B /* MeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeFooterView.h; sourceTree = "<group>"; };
+		4B2A74BB1D7677B7006A571B /* MeFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeFooterView.m; sourceTree = "<group>"; };
+		4B2A74BD1D768530006A571B /* MeOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeOptionView.h; sourceTree = "<group>"; };
+		4B2A74BE1D768530006A571B /* MeOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeOptionView.m; sourceTree = "<group>"; };
+		4B2A74C01D768E2A006A571B /* MeSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeSectionView.h; sourceTree = "<group>"; };
+		4B2A74C11D768E2A006A571B /* MeSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeSectionView.m; sourceTree = "<group>"; };
+		4B2A74C31D768E45006A571B /* MeSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeSectionView.xib; sourceTree = "<group>"; };
+		4B2A74C61D76CC85006A571B /* ButtonTitleDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonTitleDown.h; sourceTree = "<group>"; };
+		4B2A74C71D76CC85006A571B /* ButtonTitleDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonTitleDown.m; sourceTree = "<group>"; };
 		4B329DB61D6727AA00C6F558 /* CommonGoodsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonGoodsFeedViewController.h; path = ../../CommonGoodsFeedViewController.h; sourceTree = "<group>"; };
 		4B329DB71D6727AA00C6F558 /* CommonGoodsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonGoodsFeedViewController.m; path = ../../CommonGoodsFeedViewController.m; sourceTree = "<group>"; };
 		4B329DBA1D672C7600C6F558 /* ColumnListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnListViewController.h; sourceTree = "<group>"; };
@@ -718,6 +735,15 @@
 			name = "GoodsFeed-热门";
 			sourceTree = "<group>";
 		};
+		4B2A74C51D76CC3D006A571B /* 继承Button */ = {
+			isa = PBXGroup;
+			children = (
+				4B2A74C61D76CC85006A571B /* ButtonTitleDown.h */,
+				4B2A74C71D76CC85006A571B /* ButtonTitleDown.m */,
+			);
+			name = "继承Button";
+			sourceTree = "<group>";
+		};
 		4B329DB91D672B7000C6F558 /* 1Cell详细 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1131,6 +1157,16 @@
 		4B370E991D3A22E1002E50B4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4B2A74C51D76CC3D006A571B /* 继承Button */,
+				4B2A74B71D76775C006A571B /* MeHeaderView.h */,
+				4B2A74B81D76775C006A571B /* MeHeaderView.m */,
+				4B2A74BD1D768530006A571B /* MeOptionView.h */,
+				4B2A74BE1D768530006A571B /* MeOptionView.m */,
+				4B2A74BA1D7677B7006A571B /* MeFooterView.h */,
+				4B2A74BB1D7677B7006A571B /* MeFooterView.m */,
+				4B2A74C01D768E2A006A571B /* MeSectionView.h */,
+				4B2A74C11D768E2A006A571B /* MeSectionView.m */,
+				4B2A74C31D768E45006A571B /* MeSectionView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1512,6 +1548,7 @@
 				4B370F101D3A579F002E50B4 /* myfav.png in Resources */,
 				4B6AF4A71D65CE420061D339 /* StrategyColumnCellCell.xib in Resources */,
 				4B329DC21D67348800C6F558 /* ColumnListHeader.xib in Resources */,
+				4B2A74C41D768E45006A571B /* MeSectionView.xib in Resources */,
 				4B6AF4601D6486A60061D339 /* SingleGifColumnCell.xib in Resources */,
 				4B2531FF1D5F0D6B00ED05C6 /* goods_6.jpg in Resources */,
 				4B834B761D6BD3BA001000B8 /* PopoverSortGifView.xib in Resources */,
@@ -1548,10 +1585,12 @@
 				4B2532171D5F544F00ED05C6 /* BaseGoodsFeedViewController.m in Sources */,
 				4B370EB21D3A22E1002E50B4 /* AFURLConnectionOperation.m in Sources */,
 				4BD25DA61D4C857200FADC47 /* Reachability.m in Sources */,
+				4B2A74BF1D768530006A571B /* MeOptionView.m in Sources */,
 				4B03084C1D61A79000CFEB26 /* MJRefreshAutoGifFooter.m in Sources */,
 				4B370ECF1D3A23CC002E50B4 /* ChannelsViewController.m in Sources */,
 				4B0308531D61A79000CFEB26 /* MJRefreshNormalHeader.m in Sources */,
 				4B370EAD1D3A22E1002E50B4 /* AFHTTPRequestOperation.m in Sources */,
+				4B2A74C81D76CC85006A571B /* ButtonTitleDown.m in Sources */,
 				4B8901391D5605820099D483 /* UIBarButtonItem+extension.m in Sources */,
 				4B2531DA1D5EFF0900ED05C6 /* TopicCell.m in Sources */,
 				4B2531C31D5EC99100ED05C6 /* BaseStrategyCell.m in Sources */,
@@ -1564,6 +1603,7 @@
 				4B370ECB1D3A22E1002E50B4 /* UIUtils.m in Sources */,
 				4B5FFC5C1D4B94470020F645 /* ShopModel.m in Sources */,
 				4B329DC61D674AF700C6F558 /* ColumnListCell.m in Sources */,
+				4B2A74BC1D7677B7006A571B /* MeFooterView.m in Sources */,
 				4B03086D1D62982700CFEB26 /* StrategyViewController.m in Sources */,
 				4B370F091D3A32AE002E50B4 /* MASViewAttribute.m in Sources */,
 				4B6AF45F1D6486A60061D339 /* SingleGifColumnCell.m in Sources */,
@@ -1646,10 +1686,12 @@
 				4BF96F6D1D4F5FC900457607 /* HotDetailViewController.m in Sources */,
 				4BD4AD801D4A39810013A5AD /* UIView+YZTCView.m in Sources */,
 				4B370EAC1D3A22E1002E50B4 /* AFNetHelper.m in Sources */,
+				4B2A74B91D76775C006A571B /* MeHeaderView.m in Sources */,
 				4B0308521D61A79000CFEB26 /* MJRefreshGifHeader.m in Sources */,
 				4B370F0C1D3A32AE002E50B4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				4B370EC91D3A22E1002E50B4 /* RootViewController.m in Sources */,
 				4B370EAF1D3A22E1002E50B4 /* AFHTTPSessionManager.m in Sources */,
+				4B2A74C21D768E2A006A571B /* MeSectionView.m in Sources */,
 				4B0308701D62984000CFEB26 /* SingleGifViewController.m in Sources */,
 				4B370F071D3A32AE002E50B4 /* MASConstraintMaker.m in Sources */,
 				4B0308571D61A79000CFEB26 /* NSBundle+MJRefresh.m in Sources */,

@@ -58,7 +58,7 @@
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     NSLog(@"横幅2 跳转");
     CommonStrategyViewController *CommonStrategyVC =  [[CommonStrategyViewController alloc] init];
-    
+    CommonStrategyVC.tableView.frame = CGRectMake(0, 0, kScreenWidth, KScreenHeight-64);
     [self.viewController.navigationController pushViewController:CommonStrategyVC animated:YES];
 }
 
